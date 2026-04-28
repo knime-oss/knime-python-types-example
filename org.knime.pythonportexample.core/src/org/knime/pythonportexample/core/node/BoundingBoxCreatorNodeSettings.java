@@ -56,7 +56,6 @@ import org.knime.node.parameters.Widget;
  *
  * @author Carsten Haubold, KNIME GmbH, Konstanz, Germany
  */
-@SuppressWarnings("restriction")
 public class BoundingBoxCreatorNodeSettings implements NodeParameters {
 
     @Widget(title = "Min X", description = "The lower X coordinate of the bounding box")

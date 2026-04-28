@@ -57,7 +57,6 @@ import org.knime.pythonportexample.core.BoundingBoxPortObject;
  *
  * @author Carsten Haubold, KNIME GmbH, Konstanz, Germany
  */
-@SuppressWarnings("restriction")
 public class BoundingBoxCreatorNodeFactory extends WebUINodeFactory<BoundingBoxCreatorNodeModel> {
     private static final WebUINodeConfiguration CONFIGURATION = WebUINodeConfiguration.builder() //
         .name("Bounding Box Creator") //
