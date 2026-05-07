@@ -14,7 +14,7 @@ properties([
 
 try {
     // provide the name of the update site project
-    knimetools.defaultTychoBuild('org.knime.update.pythontypeexample', 'maven && workflow-tests && java21')
+    knimetools.defaultTychoBuild('org.knime.update.pythontypeexample', 'workflow-tests && java21 && ubuntu22.04')
 
     String envYml = "${DEFAULT_WF_TESTS_PYTHON_ENV}"
 
